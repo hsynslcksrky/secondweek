@@ -36,8 +36,6 @@ buraya:	printf("			NERELiSiN BAKALiM\n\n\n");
 	}
 	
 	v=b[0];
-	
-	
 
 		switch(v)
 	{
@@ -269,7 +267,7 @@ buraya:	printf("			NERELiSiN BAKALiM\n\n\n");
 	
 	system("cls");
 	printf("Bi dk dusunuyorum ...\n\n");
-	printf("%%%d Karadenizlisin\n",(100*k)/(an+m+e+i+u+d+g+k));
+	printf("%d Karadenizlisin\n",(100*k)/(an+m+e+i+u+d+g+k));
 	printf("%%%d Dogu anadolulusun\n",(100*d)/(an+m+e+i+u+d+g+k));
 	printf("%%%d Egelisin\n",(100*e)/(an+m+e+i+u+d+g+k));
 	printf("%%%d Marmaralisin\n",(100*m)/(an+m+e+i+u+d+g+k));

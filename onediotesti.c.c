@@ -11,7 +11,7 @@ int main()
 	int a=5;
 	int karar;
 	
-buraya:	printf("			NERELISIN BAKALIM\n\n\n");
+buraya:	printf("			NERELiSiN BAKALiM\n\n\n");
 	
 	while(!(a==1))
 	{

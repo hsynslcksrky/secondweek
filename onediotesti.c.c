@@ -4,6 +4,7 @@
 
 int main()
 {
+printf("hello world by Ahmet");
 	char b[100];
 	char v;
 	int sayi;

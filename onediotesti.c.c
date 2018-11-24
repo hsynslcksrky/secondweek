@@ -5,6 +5,9 @@
 int main()
 {
 printf("hello world by Ahmet");
+
+
+printf("hello world2");
 	char b[100];
 	char v;
 	int sayi;

@@ -121,6 +121,45 @@ buraya:	printf("			NERELiSiN BAKALiM\n\n\n");
 	}	
 	
 	a=5;
+
+a=5;
+	
+		while(!(a==1))
+	{
+	if(a==2)
+	{
+		printf("%c yi nerede okudun soyler misin? :( \nBir daha soruyorum\n",b[0]);
+	}
+	printf("Senin hayatin hangi program diliyle anlatilsin isterdin?\n");
+	printf("1-C\n2-C++\n3-Python\n4-Nodejs\n5-Java\n\n");
+	scanf("%s",&b[0]);
+	printf("\n");
+	
+	if( b[0]=='2' ||b[0]=='3' || b[0]=='4' || b[0]=='5' || b[0]=='1' )
+	{
+		a=1;
+	}
+	else
+	{
+		a=2;
+	}
+
+	}
+	
+	v=b[0];
+
+		switch(v)
+	{
+		case '1': m++; e++;	break;	
+		case '2': e++; m++; i++;   break;
+		case '3': k; d;   break;
+		case '4': u+=100; break;
+		case '5': g; d; k; u++; break;
+	}	
+	
+	a=5;
+
+
 	
 	
 	while(!(a==1))

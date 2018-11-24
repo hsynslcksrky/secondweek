@@ -23,6 +23,80 @@ buraya:	printf("			NERELiSiN BAKALiM\n\n\n");
 	printf("1-Dondurma\n2-Baklava\n3-Kebap\n4-Borek\n5-Cikolata\n\n");
 	scanf("%s",&b[0]);
 	printf("\n");
+
+	if( b[0]=='1' || b[0]=='2' ||b[0]=='3' || b[0]=='4' || b[0]=='5')
+	{
+		a=1;
+	}
+	else
+	{
+		a=2;
+	}
+
+	}
+	
+	v=b[0];
+	
+	
+
+		switch(v)
+	{
+		case '1': m++; e++;	break;	
+		case '2': i++; d++;   break;
+		case '3': g++; d++;   break;
+		case '4':m++; e++; a++; k++; i++; break;
+		case '5': e++; an++; m++; u++; break;
+	}	
+	
+	a=5;
+	
+	while(!(a==1))
+	{
+	if(a==2)
+	{
+		printf("%c yi nerede okudun soyler misin? :( \nBir daha soruyorum\n",b[0]);
+	}
+	printf("Suan neredeyiz?\n");
+	printf("1-Git\n2-E4te\n3-Meksikada\n4-Karadenizde\n5-Githubda\n\n");
+	scanf("%s",&b[0]);
+	printf("\n");
+	
+	if( b[0]=='2' ||b[0]=='3' || b[0]=='4' || b[0]=='5' || b[0]=='1' )
+	{
+		a=1;
+	}
+	else
+	{
+		a=2;
+	}
+
+	}
+	
+	v=b[0];
+	
+	
+
+		switch(v)
+	{
+		case '1': m++; e++;	break;	
+		case '2': i++; d++;   break;
+		case '3': g++; d++;   break;
+		case '4':m++; e++; a++; k++; i++; break;
+		case '5': e++; an++; m++; u++; break;
+	}	
+	
+	a=5;
+	
+	while(!(a==1))
+	{
+	if(a==2)
+	{
+		printf("%c yi nerede okudun soyler misin? :( \nBir daha soruyorum\n",b[0]);
+	}
+	printf("Olsa da yesek desem kacinciyi secerdin?\n");
+	printf("1-Dondurma\n2-Baklava\n3-Kebap\n4-Borek\n5-Cikolata\n\n");
+	scanf("%s",&b[0]);
+	printf("\n");
 	
 	if( b[0]=='2' ||b[0]=='3' || b[0]=='4' || b[0]=='5' || b[0]=='1' )
 	{
